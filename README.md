@@ -1,37 +1,16 @@
-# Using Hilt in your Android app
+# Using Hilt in Logger Android app
 
-This folder contains the source code for the "Using Hilt in your Android app" codelab.
+Hilt is a new tool built on top of Dagger, designed with the aim of simplifying dependency injection.
 
-The codelab is built in multiple GitHub branches:
-* `main` is the codelab's starting point.
-* `solution` contains the solution to this codelab.
+Advantages of Hilt:
 
+1. Easier Learning Curve: Hilt simplifies the dependency injection process with straightforward annotations and components, making it easier to pick up compared to Dagger.
 
-# Introduction
-Dependency injection is a technique widely used in programming and well suited
-to Android development. By following the principles of dependency injection, you
-lay the groundwork for a good app architecture.
+2. Less Boilerplate: Hilt minimizes boilerplate code by automatically generating Dagger components and modules.
 
-Implementing dependency injection provides you with the following advantages:
-* Reusability of code.
-* Ease of refactoring.
-* Ease of testing.
+3. Seamless Integration with Android Components: Hilt provides predefined annotations and components specifically designed for Android, simplifying integration with common elements like Activities, Fragments, and ViewModels.
 
-
-# Pre-requisites
-* Experience with Kotlin syntax.
-* You understand Dependency Injection.
-
-# Getting Started
-1. Install Android Studio, if you don't already have it.
-2. Download the sample.
-3. Import the sample into Android Studio.
-4. Build and run the sample.
-
-
-# Comparison between different branches
-* [Full codelab comparison](https://github.com/googlecodelabs/android-hilt/compare/main...solution)
-
+This app demonstrates the practial uses of dependency injection using Hilt with the inclusion of multiple modules under different scopes and unit testing.
 
 # License
 
